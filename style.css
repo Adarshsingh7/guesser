@@ -24,7 +24,7 @@ h1 {
 
 .container {
   margin: 10% auto;
-  width: 42vw;
+  width: 45vw;
 }
 
 .guess-btn {
@@ -40,4 +40,17 @@ img {
 .score-board {
   display: flex;
   justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80vw;
+  }
+  img {
+    height: 15vw;
+    width: 15vw;
+  }
+  .guess-btn {
+    height: 15vw;
+    width: 15vw;
+  }
 }
